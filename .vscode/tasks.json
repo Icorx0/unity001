@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+
+    /* This file is for debugin on vscode */
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build cs project",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/${relativeFileDirname}"
+            },
+            "command": "dotnet build",
+            "group": "build"
+        },
+        {
+            "label": "Execute cs project",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/${relativeFileDirname}"
+            },
+            "command": "dotnet run",
+            "group": "build"
+        }
+    ]
+}

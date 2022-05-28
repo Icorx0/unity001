@@ -1,0 +1,52 @@
+using System;
+
+class Program {
+    public static void Main(String[] args) {
+        Vector3[] plane = {
+            new Vector3(3.0, 5.0, 8.0),
+            new Vector3(7.0, 10.0, 9.0),
+            new Vector3(4.0, 2.0, 6.0)
+        };
+ 
+        Vector3 refPoint = new Vector3(0.0, 0.0, 9.0);
+
+        Console.WriteLine("Plane numbers: ");
+        for(int i = 0; i < plane.Length; i++) {
+            Console.WriteLine("  " + plane[i].ToString());
+        }
+
+        Console.WriteLine("RefPoint: " + refPoint.ToString());
+        Console.WriteLine("Is above plane?: " + isAvobePlane(plane, refPoint));
+    }
+
+    public static Boolean isAvobePlane(Vector3[] plane, Vector3 refPoint) {
+        Vector3 A = plane[0];
+        Vector3 B = plane[1];
+        Vector3 C = plane[2];
+        if((refPoint.X()-A.X())*((A.Y()-B.Y())*(C.Z()-B.Z()) - (C.Y()-B.Y())*(A.Z()-B.Z())) +
+            (refPoint.Y()-A.Y())*((C.X()-B.X())*(A.Z()-B.Z()) - (C.Z()-B.Z())*(A.X()-B.X())) +
+            (refPoint.Z()-A.Z())*((A.X()-B.X())*(C.Y()-B.Y()) - (A.Y()-B.Y())*(C.X()-B.X())) > 0) {
+            return true;
+        }
+        return false;
+    }
+}
+
+class Vector3 {
+    double x, y, z;
+    public Vector3(double x, double y, double z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
+    public double X() {return x;} 
+
+    public double Y() {return y;}
+
+    public double Z() {return z;}
+
+    public String ToString() {
+        return "(" + x.ToString() + "," + y.ToString() + "," + z.ToString() + ")";
+    }
+}
