@@ -73,9 +73,9 @@ public class Vector3 {
         this.z = z;
     }
 
-    public double X() {return x;}
-    public double Y() {return y;}
-    public double Z() {return z;}
+    public double getX() {return x;}
+    public double getY() {return y;}
+    public double getZ() {return z;}
 
     public double getModule() {
         return Math.Sqrt(Math.Pow(x,2.0) + Math.Pow(y,2.0) + Math.Pow(z,2.0));
@@ -92,17 +92,17 @@ public class Vector3 {
     }
 
     public static Vector3 substraction(Vector3 vector1, Vector3 vector2) {
-        return new Vector3(vector1.X() - vector2.X(), vector1.Y() - vector2.Y(), vector1.Z() - vector2.Z());
+        return new Vector3(vector1.getX() - vector2.getX(), vector1.getY() - vector2.getY(), vector1.getZ() - vector2.getZ());
     }
 
     public static double dotProduct(Vector3 vector1, Vector3 vector2) {
-        return vector1.X()*vector2.X() + vector1.Y()*vector2.Y() + vector1.Z()*vector2.Z();
+        return vector1.getX()*vector2.getX() + vector1.getY()*vector2.getY() + vector1.getZ()*vector2.getZ();
     }
 
     public static Vector3 crossProduct(Vector3 vector1, Vector3 vector2) {
-        double x = vector1.Y()*vector2.Z() - vector1.Z()*vector2.Y();
-        double y = vector1.Z()*vector2.X() - vector1.X()*vector2.Z();
-        double z = vector1.X()*vector2.Y() - vector1.Y()*vector2.X();
+        double x = vector1.getY()*vector2.getZ() - vector1.getZ()*vector2.getY();
+        double y = vector1.getZ()*vector2.getX() - vector1.getX()*vector2.getZ();
+        double z = vector1.getX()*vector2.getY() - vector1.getY()*vector2.getX();
         return new Vector3(x,y,z);
     }
 }

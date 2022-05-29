@@ -1,0 +1,15 @@
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.csproj.AssemblyReference.cache
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.GeneratedMSBuildEditorConfig.editorconfig
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.AssemblyInfoInputs.cache
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.AssemblyInfo.cs
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.csproj.CoreCompileInputs.cache
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/bin/Debug/net6.0/app
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/bin/Debug/net6.0/app.deps.json
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/bin/Debug/net6.0/app.runtimeconfig.json
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/bin/Debug/net6.0/app.dll
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/bin/Debug/net6.0/app.pdb
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.dll
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/refint/app.dll
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.pdb
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/app.genruntimeconfig.cache
+/media/icorx0/Nuevovol1/Projects/Unity/My project/Tests/obj/Debug/net6.0/ref/app.dll
