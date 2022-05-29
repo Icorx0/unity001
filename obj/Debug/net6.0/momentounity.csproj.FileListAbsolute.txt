@@ -1,0 +1,15 @@
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.csproj.AssemblyReference.cache
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.GeneratedMSBuildEditorConfig.editorconfig
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.AssemblyInfoInputs.cache
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.AssemblyInfo.cs
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.csproj.CoreCompileInputs.cache
+/home/icorx0/Documents/momentounity/bin/Debug/net6.0/momentounity
+/home/icorx0/Documents/momentounity/bin/Debug/net6.0/momentounity.deps.json
+/home/icorx0/Documents/momentounity/bin/Debug/net6.0/momentounity.runtimeconfig.json
+/home/icorx0/Documents/momentounity/bin/Debug/net6.0/momentounity.dll
+/home/icorx0/Documents/momentounity/bin/Debug/net6.0/momentounity.pdb
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.dll
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/refint/momentounity.dll
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.pdb
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/momentounity.genruntimeconfig.cache
+/home/icorx0/Documents/momentounity/obj/Debug/net6.0/ref/momentounity.dll
